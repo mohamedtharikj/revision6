@@ -15,9 +15,18 @@ public class Sample {
 		System.out.println(name);
 
 	}
+public Sample(int age) {
+		
+		
+		System.out.println(age);
+
+	}
+	
+	
 	public static void main(String[] args) {
 		Sample s=new Sample();
 		Sample s1=new Sample("tharik");
+		Sample s2=new Sample(22);
 		
 	}
 	
